@@ -1,0 +1,994 @@
+{
+  "job_roles": [
+    {
+      "id": 1,
+      "title": "Software Engineer",
+      "category": "Engineering",
+      "department": "CSE",
+      "required_skills": ["Python", "Java", "JavaScript", "Git", "SQL", "REST API", "Docker", "Kubernetes"],
+      "nice_to_have": ["AWS", "React", "Node.js", "MongoDB"],
+      "description": "Design, develop, and maintain software applications"
+    },
+    {
+      "id": 2,
+      "title": "Data Scientist",
+      "category": "Data Science",
+      "department": "AI & DS",
+      "required_skills": ["Python", "Machine Learning", "Statistics", "Pandas", "NumPy", "Scikit-learn", "SQL", "Data Visualization"],
+      "nice_to_have": ["TensorFlow", "PyTorch", "Deep Learning", "NLP", "Big Data"],
+      "description": "Analyze complex data and build predictive models"
+    },
+    {
+      "id": 3,
+      "title": "Frontend Developer",
+      "category": "Engineering",
+      "department": "CSE",
+      "required_skills": ["JavaScript", "HTML", "CSS", "React", "TypeScript", "Git", "Responsive Design"],
+      "nice_to_have": ["Vue.js", "Angular", "Webpack", "Redux", "SASS"],
+      "description": "Build user-facing features and interfaces"
+    },
+    {
+      "id": 4,
+      "title": "Backend Developer",
+      "category": "Engineering",
+      "department": "CSE",
+      "required_skills": ["Python", "Java", "Node.js", "SQL", "REST API", "Docker", "Git", "Database Design"],
+      "nice_to_have": ["GraphQL", "Redis", "RabbitMQ", "Microservices", "AWS"],
+      "description": "Develop server-side logic and APIs"
+    },
+    {
+      "id": 5,
+      "title": "DevOps Engineer",
+      "category": "Operations",
+      "department": "CSE/IT",
+      "required_skills": ["Docker", "Kubernetes", "CI/CD", "Linux", "Git", "AWS", "Terraform", "Jenkins"],
+      "nice_to_have": ["Azure", "GCP", "Ansible", "Prometheus", "Grafana"],
+      "description": "Automate and optimize infrastructure and deployments"
+    },
+    {
+      "id": 6,
+      "title": "Machine Learning Engineer",
+      "category": "Data Science",
+      "department": "AI & DS",
+      "required_skills": ["Python", "Machine Learning", "TensorFlow", "PyTorch", "Deep Learning", "MLOps", "Docker", "Git"],
+      "nice_to_have": ["NLP", "Computer Vision", "Kubernetes", "AWS", "Spark"],
+      "description": "Deploy and maintain machine learning models in production"
+    },
+    {
+      "id": 7,
+      "title": "Full Stack Developer",
+      "category": "Engineering",
+      "department": "CSE",
+      "required_skills": ["JavaScript", "Python", "React", "Node.js", "SQL", "Git", "REST API", "HTML", "CSS"],
+      "nice_to_have": ["TypeScript", "MongoDB", "Docker", "AWS", "GraphQL"],
+      "description": "Develop both frontend and backend components"
+    },
+    {
+      "id": 8,
+      "title": "Data Analyst",
+      "category": "Data Science",
+      "department": "AI & DS",
+      "required_skills": ["SQL", "Excel", "Python", "Data Visualization", "Tableau", "Statistics", "Pandas"],
+      "nice_to_have": ["Power BI", "R", "Machine Learning", "BigQuery"],
+      "description": "Interpret data and provide insights for business decisions"
+    },
+    {
+      "id": 9,
+      "title": "Mobile Developer",
+      "category": "Engineering",
+      "department": "CSE",
+      "required_skills": ["Java", "Kotlin", "Swift", "React Native", "Git", "REST API", "Mobile UI/UX"],
+      "nice_to_have": ["Flutter", "Firebase", "iOS", "Android", "Redux"],
+      "description": "Create mobile applications for iOS and Android"
+    },
+    {
+      "id": 10,
+      "title": "Cloud Architect",
+      "category": "Operations",
+      "department": "CSE/IT",
+      "required_skills": ["AWS", "Azure", "Cloud Architecture", "Security", "Networking", "Terraform", "Docker", "Kubernetes"],
+      "nice_to_have": ["GCP", "Serverless", "Lambda", "CloudFormation"],
+      "description": "Design and implement cloud infrastructure solutions"
+    },
+    {
+      "id": 11,
+      "title": "HR Manager",
+      "category": "Human Resources",
+      "department": "HR",
+      "required_skills": ["Recruitment", "Employee Relations", "HRIS", "Performance Management", "Labor Law", "Communication", "Conflict Resolution"],
+      "nice_to_have": ["Workday", "SAP SuccessFactors", "Talent Management", "HR Analytics", "Organizational Development"],
+      "description": "Manage human resources operations and employee lifecycle"
+    },
+    {
+      "id": 12,
+      "title": "HR Recruiter",
+      "category": "Human Resources",
+      "department": "HR",
+      "required_skills": ["Sourcing", "Interviewing", "Applicant Tracking Systems", "LinkedIn", "Communication", "Negotiation", "Candidate Assessment"],
+      "nice_to_have": ["Boolean Search", "Employer Branding", "Social Media Recruiting", "Recruitment Marketing"],
+      "description": "Source, screen, and hire top talent for the organization"
+    },
+    {
+      "id": 13,
+      "title": "HR Business Partner",
+      "category": "Human Resources",
+      "department": "HR",
+      "required_skills": ["Strategic Planning", "Employee Relations", "Change Management", "Performance Management", "Coaching", "Business Acumen"],
+      "nice_to_have": ["HR Analytics", "Organizational Design", "Succession Planning", "Culture Development"],
+      "description": "Partner with business leaders on HR strategy and initiatives"
+    },
+    {
+      "id": 14,
+      "title": "Talent Acquisition Specialist",
+      "category": "Human Resources",
+      "department": "HR",
+      "required_skills": ["Recruitment Strategy", "Interviewing", "ATS", "Candidate Experience", "Employer Branding", "LinkedIn Recruiter"],
+      "nice_to_have": ["Recruitment Marketing", "Data Analytics", "Social Media", "Campus Recruiting"],
+      "description": "Develop and execute talent acquisition strategies"
+    },
+    {
+      "id": 15,
+      "title": "Digital Marketing Manager",
+      "category": "Marketing",
+      "department": "Marketing",
+      "required_skills": ["SEO", "SEM", "Google Analytics", "Content Marketing", "Social Media Marketing", "Email Marketing", "Marketing Strategy"],
+      "nice_to_have": ["Google Ads", "Facebook Ads", "Marketing Automation", "A/B Testing", "Conversion Optimization"],
+      "description": "Plan and execute digital marketing campaigns"
+    },
+    {
+      "id": 16,
+      "title": "Content Marketing Manager",
+      "category": "Marketing",
+      "department": "Marketing",
+      "required_skills": ["Content Strategy", "Copywriting", "SEO", "Content Management Systems", "Analytics", "Social Media", "Editorial Calendar"],
+      "nice_to_have": ["WordPress", "HubSpot", "Video Production", "Graphic Design", "Marketing Automation"],
+      "description": "Create and manage content marketing strategies"
+    },
+    {
+      "id": 17,
+      "title": "Social Media Manager",
+      "category": "Marketing",
+      "department": "Marketing",
+      "required_skills": ["Social Media Strategy", "Content Creation", "Community Management", "Analytics", "Copywriting", "Facebook", "Instagram", "Twitter"],
+      "nice_to_have": ["Paid Social Advertising", "Influencer Marketing", "Hootsuite", "Canva", "Video Editing"],
+      "description": "Manage social media presence and engagement"
+    },
+    {
+      "id": 18,
+      "title": "SEO Specialist",
+      "category": "Marketing",
+      "department": "Marketing",
+      "required_skills": ["SEO", "Keyword Research", "On-Page Optimization", "Link Building", "Google Analytics", "Technical SEO", "Content Optimization"],
+      "nice_to_have": ["SEMrush", "Ahrefs", "Schema Markup", "Local SEO", "International SEO"],
+      "description": "Optimize website visibility in search engines"
+    },
+    {
+      "id": 19,
+      "title": "Product Manager",
+      "category": "Product",
+      "department": "Product Management",
+      "required_skills": ["Product Strategy", "Roadmap Planning", "Agile", "User Research", "Data Analysis", "Stakeholder Management", "Prioritization"],
+      "nice_to_have": ["JIRA", "Product Analytics", "A/B Testing", "Wireframing", "SQL"],
+      "description": "Define and execute product vision and strategy"
+    },
+    {
+      "id": 20,
+      "title": "UX Designer",
+      "category": "Design",
+      "department": "Design",
+      "required_skills": ["User Research", "Wireframing", "Prototyping", "Figma", "User Testing", "Information Architecture", "Interaction Design"],
+      "nice_to_have": ["Adobe XD", "Sketch", "InVision", "Design Systems", "Accessibility"],
+      "description": "Design user-centered digital experiences"
+    },
+    {
+      "id": 21,
+      "title": "UI Designer",
+      "category": "Design",
+      "department": "Design",
+      "required_skills": ["Visual Design", "Figma", "Adobe Creative Suite", "Typography", "Color Theory", "Responsive Design", "Design Systems"],
+      "nice_to_have": ["Animation", "Illustration", "Sketch", "Prototyping", "Brand Design"],
+      "description": "Create visually appealing user interfaces"
+    },
+    {
+      "id": 22,
+      "title": "Graphic Designer",
+      "category": "Design",
+      "department": "Design",
+      "required_skills": ["Adobe Photoshop", "Adobe Illustrator", "InDesign", "Typography", "Layout Design", "Brand Design", "Creative Thinking"],
+      "nice_to_have": ["Adobe After Effects", "3D Design", "Motion Graphics", "Print Design"],
+      "description": "Create visual content for various media"
+    },
+    {
+      "id": 23,
+      "title": "Financial Analyst",
+      "category": "Finance",
+      "department": "Finance",
+      "required_skills": ["Financial Modeling", "Excel", "Data Analysis", "Forecasting", "Financial Reporting", "Budgeting", "Accounting Principles"],
+      "nice_to_have": ["SQL", "Power BI", "Tableau", "Python", "VBA", "SAP"],
+      "description": "Analyze financial data and create reports"
+    },
+    {
+      "id": 24,
+      "title": "Accountant",
+      "category": "Finance",
+      "department": "Finance",
+      "required_skills": ["Accounting", "QuickBooks", "Excel", "General Ledger", "Financial Statements", "Tax Preparation", "Reconciliation"],
+      "nice_to_have": ["CPA", "SAP", "Oracle", "GAAP", "Cost Accounting"],
+      "description": "Manage financial records and prepare reports"
+    },
+    {
+      "id": 25,
+      "title": "Business Analyst",
+      "category": "Business",
+      "department": "Business",
+      "required_skills": ["Requirements Gathering", "Process Modeling", "Data Analysis", "SQL", "Stakeholder Management", "Documentation", "Problem Solving"],
+      "nice_to_have": ["JIRA", "Agile", "UML", "Tableau", "Python", "Business Intelligence"],
+      "description": "Analyze business processes and recommend improvements"
+    },
+    {
+      "id": 26,
+      "title": "Project Manager",
+      "category": "Management",
+      "department": "Management",
+      "required_skills": ["Project Planning", "Stakeholder Management", "Risk Management", "Budgeting", "Agile", "Scrum", "Communication", "Leadership"],
+      "nice_to_have": ["PMP", "JIRA", "MS Project", "Change Management", "Six Sigma"],
+      "description": "Plan, execute, and deliver projects successfully"
+    },
+    {
+      "id": 27,
+      "title": "Scrum Master",
+      "category": "Management",
+      "department": "Management",
+      "required_skills": ["Scrum", "Agile", "Facilitation", "JIRA", "Sprint Planning", "Stakeholder Management", "Coaching", "Team Leadership"],
+      "nice_to_have": ["SAFe", "Kanban", "Confluence", "Agile Metrics", "Change Management"],
+      "description": "Facilitate agile development processes"
+    },
+    {
+      "id": 28,
+      "title": "QA Engineer",
+      "category": "Quality Assurance",
+      "department": "QA",
+      "required_skills": ["Manual Testing", "Test Planning", "Bug Tracking", "JIRA", "Test Cases", "Regression Testing", "API Testing"],
+      "nice_to_have": ["Selenium", "Automation Testing", "SQL", "Performance Testing", "CI/CD"],
+      "description": "Ensure software quality through testing"
+    },
+    {
+      "id": 29,
+      "title": "QA Automation Engineer",
+      "category": "Quality Assurance",
+      "department": "QA",
+      "required_skills": ["Selenium", "Python", "Java", "Test Automation", "CI/CD", "Git", "API Testing"],
+      "nice_to_have": ["Cypress", "Playwright", "Docker", "Kubernetes", "Performance Testing"],
+      "description": "Develop and maintain automated test frameworks"
+    },
+    {
+      "id": 30,
+      "title": "Cybersecurity Analyst",
+      "category": "Security",
+      "department": "Cyber Security",
+      "required_skills": ["Network Security", "Threat Analysis", "SIEM", "Incident Response", "Security Protocols", "Firewalls", "Vulnerability Assessment"],
+      "nice_to_have": ["CISSP", "Penetration Testing", "Cloud Security", "Compliance", "Forensics"],
+      "description": "Protect systems and networks from cyber threats"
+    },
+    {
+      "id": 31,
+      "title": "Network Engineer",
+      "category": "IT Infrastructure",
+      "department": "IT",
+      "required_skills": ["Networking", "TCP/IP", "Routers", "Switches", "VPN", "Firewalls", "Network Monitoring", "Troubleshooting"],
+      "nice_to_have": ["CCNA", "CCNP", "SD-WAN", "Network Automation", "Cloud Networking"],
+      "description": "Design and maintain network infrastructure"
+    },
+    {
+      "id": 32,
+      "title": "System Administrator",
+      "category": "IT Infrastructure",
+      "department": "IT",
+      "required_skills": ["Linux", "Windows Server", "Active Directory", "System Monitoring", "Backup", "Shell Scripting", "Troubleshooting"],
+      "nice_to_have": ["VMware", "Docker", "Ansible", "Cloud Platforms", "Security"],
+      "description": "Manage and maintain IT systems and servers"
+    },
+    {
+      "id": 33,
+      "title": "Database Administrator",
+      "category": "Database",
+      "department": "IT",
+      "required_skills": ["SQL", "Database Design", "MySQL", "PostgreSQL", "Backup & Recovery", "Performance Tuning", "Security"],
+      "nice_to_have": ["Oracle", "MongoDB", "Cloud Databases", "Replication", "Clustering"],
+      "description": "Manage and optimize database systems"
+    },
+    {
+      "id": 34,
+      "title": "Data Engineer",
+      "category": "Data Engineering",
+      "department": "AI & DS",
+      "required_skills": ["Python", "SQL", "ETL", "Data Pipelines", "Spark", "Kafka", "Data Warehousing", "Big Data"],
+      "nice_to_have": ["Airflow", "AWS", "Snowflake", "DBT", "Hadoop"],
+      "description": "Build and maintain data infrastructure"
+    },
+    {
+      "id": 35,
+      "title": "Business Intelligence Developer",
+      "category": "Business Intelligence",
+      "department": "Business",
+      "required_skills": ["SQL", "Data Modeling", "Power BI", "Tableau", "Data Visualization", "ETL", "Reporting"],
+      "nice_to_have": ["Python", "DAX", "SSRS", "Data Warehousing", "Excel"],
+      "description": "Develop BI solutions and dashboards"
+    },
+    {
+      "id": 36,
+      "title": "Sales Manager",
+      "category": "Sales",
+      "department": "Sales",
+      "required_skills": ["Sales Strategy", "Team Leadership", "CRM", "Negotiation", "Pipeline Management", "Forecasting", "Customer Relationship Management"],
+      "nice_to_have": ["Salesforce", "Account Management", "B2B Sales", "Sales Analytics"],
+      "description": "Lead sales team and drive revenue growth"
+    },
+    {
+      "id": 37,
+      "title": "Sales Executive",
+      "category": "Sales",
+      "department": "Sales",
+      "required_skills": ["Prospecting", "Lead Generation", "Closing", "CRM", "Communication", "Negotiation", "Product Knowledge"],
+      "nice_to_have": ["Salesforce", "Cold Calling", "Social Selling", "Account Management"],
+      "description": "Generate and close sales opportunities"
+    },
+    {
+      "id": 38,
+      "title": "Customer Success Manager",
+      "category": "Customer Success",
+      "department": "Customer Success",
+      "required_skills": ["Account Management", "Customer Onboarding", "Relationship Building", "Problem Solving", "CRM", "Communication", "Product Knowledge"],
+      "nice_to_have": ["Salesforce", "Data Analysis", "Project Management", "SaaS Experience"],
+      "description": "Ensure customer satisfaction and retention"
+    },
+    {
+      "id": 39,
+      "title": "Technical Writer",
+      "category": "Documentation",
+      "department": "Documentation",
+      "required_skills": ["Technical Writing", "Documentation", "API Documentation", "User Guides", "Editing", "Communication", "Markdown"],
+      "nice_to_have": ["Git", "Confluence", "DITA", "Video Tutorials", "Screenshots"],
+      "description": "Create technical documentation and user guides"
+    },
+    {
+      "id": 40,
+      "title": "Content Writer",
+      "category": "Content",
+      "department": "Marketing",
+      "required_skills": ["Copywriting", "Content Creation", "SEO Writing", "Research", "Editing", "Grammar", "Storytelling"],
+      "nice_to_have": ["WordPress", "CMS", "Social Media", "Email Marketing", "Blog Writing"],
+      "description": "Create engaging written content"
+    },
+    {
+      "id": 41,
+      "title": "Video Editor",
+      "category": "Media",
+      "department": "Media",
+      "required_skills": ["Adobe Premiere Pro", "Final Cut Pro", "Video Editing", "Color Grading", "Audio Editing", "Storytelling"],
+      "nice_to_have": ["After Effects", "Motion Graphics", "DaVinci Resolve", "YouTube Optimization"],
+      "description": "Edit and produce video content"
+    },
+    {
+      "id": 42,
+      "title": "Blockchain Developer",
+      "category": "Engineering",
+      "department": "CSE",
+      "required_skills": ["Solidity", "Ethereum", "Smart Contracts", "Blockchain", "Web3", "Cryptography", "Git"],
+      "nice_to_have": ["Hyperledger", "Truffle", "DeFi", "NFTs", "Rust"],
+      "description": "Develop blockchain applications and smart contracts"
+    },
+    {
+      "id": 43,
+      "title": "IoT Engineer",
+      "category": "Engineering",
+      "department": "ECE/CSE",
+      "required_skills": ["Embedded Systems", "C/C++", "Arduino", "Raspberry Pi", "Sensors", "MQTT", "Networking"],
+      "nice_to_have": ["Python", "Cloud Platforms", "Machine Learning", "Edge Computing"],
+      "description": "Develop Internet of Things solutions"
+    },
+    {
+      "id": 44,
+      "title": "Game Developer",
+      "category": "Gaming",
+      "department": "CSE",
+      "required_skills": ["Unity", "C#", "Game Design", "3D Modeling", "Physics", "Animation", "Problem Solving"],
+      "nice_to_have": ["Unreal Engine", "Blender", "VR/AR", "Mobile Games", "Multiplayer"],
+      "description": "Create video games and interactive experiences"
+    },
+    {
+      "id": 45,
+      "title": "AI/ML Researcher",
+      "category": "Research",
+      "department": "AI & DS",
+      "required_skills": ["Machine Learning", "Deep Learning", "Python", "Research", "Mathematics", "Statistics", "Publications"],
+      "nice_to_have": ["Computer Vision", "NLP", "Reinforcement Learning", "PyTorch", "TensorFlow"],
+      "description": "Conduct AI/ML research and develop new algorithms"
+    },
+    {
+      "id": 46,
+      "title": "Copywriter",
+      "category": "Marketing",
+      "department": "Marketing",
+      "required_skills": ["Copywriting", "Creative Writing", "Brand Voice", "Storytelling", "Marketing", "Editing", "Persuasive Writing"],
+      "nice_to_have": ["SEO", "Social Media", "Email Marketing", "Ad Copy", "Landing Pages"],
+      "description": "Write compelling marketing copy"
+    },
+    {
+      "id": 47,
+      "title": "Email Marketing Specialist",
+      "category": "Marketing",
+      "department": "Marketing",
+      "required_skills": ["Email Marketing", "Mailchimp", "Copywriting", "A/B Testing", "Marketing Automation", "Analytics", "Segmentation"],
+      "nice_to_have": ["HubSpot", "HTML/CSS", "CRM", "Lead Nurturing", "Conversion Optimization"],
+      "description": "Create and manage email marketing campaigns"
+    },
+    {
+      "id": 48,
+      "title": "Operations Manager",
+      "category": "Operations",
+      "department": "Operations",
+      "required_skills": ["Operations Management", "Process Improvement", "Team Leadership", "Budgeting", "Project Management", "Problem Solving", "Communication"],
+      "nice_to_have": ["Six Sigma", "Lean", "Supply Chain", "ERP Systems", "Data Analysis"],
+      "description": "Oversee daily operations and improve efficiency"
+    },
+    {
+      "id": 49,
+      "title": "Supply Chain Manager",
+      "category": "Supply Chain",
+      "department": "Operations",
+      "required_skills": ["Supply Chain Management", "Logistics", "Inventory Management", "Procurement", "Vendor Management", "Forecasting", "ERP"],
+      "nice_to_have": ["SAP", "Lean", "Six Sigma", "Data Analysis", "Negotiation"],
+      "description": "Manage supply chain operations and logistics"
+    },
+    {
+      "id": 50,
+      "title": "Legal Counsel",
+      "category": "Legal",
+      "department": "Legal",
+      "required_skills": ["Contract Law", "Legal Research", "Compliance", "Negotiation", "Legal Writing", "Risk Management", "Corporate Law"],
+      "nice_to_have": ["Intellectual Property", "Employment Law", "Litigation", "Regulatory Compliance"],
+      "description": "Provide legal guidance and manage legal matters"
+    },
+    {
+      "id": 51,
+      "title": "Electrical Design Engineer",
+      "category": "Electrical & Electronics Engineering (EEE)",
+      "department": "EEE",
+      "required_skills": ["Circuit Design", "AutoCAD Electrical", "Power Systems", "PLC", "MATLAB", "Electrical Testing", "Transformers"],
+      "nice_to_have": ["ETAP", "PSCAD", "Microcontrollers", "Renewable Energy", "SCADA"],
+      "description": "Design and develop electrical systems and components"
+    },
+    {
+      "id": 52,
+      "title": "Power Systems Engineer",
+      "category": "Electrical & Electronics Engineering (EEE)",
+      "department": "EEE",
+      "required_skills": ["Power Systems", "Load Flow Analysis", "Protection Systems", "SCADA", "Substation Design", "High Voltage", "Grid Management"],
+      "nice_to_have": ["ETAP", "Renewable Energy", "Smart Grid", "Power Quality", "Energy Storage"],
+      "description": "Design and maintain electrical power distribution systems"
+    },
+    {
+      "id": 53,
+      "title": "Control Systems Engineer",
+      "category": "Electrical & Electronics Engineering (EEE)",
+      "department": "EEE",
+      "required_skills": ["PLC Programming", "SCADA", "DCS", "Process Control", "HMI", "Instrumentation", "Automation"],
+      "nice_to_have": ["Siemens PLC", "Allen Bradley", "MATLAB Simulink", "Industrial IoT", "Robotics"],
+      "description": "Design and implement industrial control systems"
+    },
+    {
+      "id": 54,
+      "title": "Renewable Energy Engineer",
+      "category": "Electrical & Electronics Engineering (EEE)",
+      "department": "EEE",
+      "required_skills": ["Solar PV", "Wind Energy", "Energy Systems", "Power Electronics", "Grid Integration", "Energy Storage", "MATLAB"],
+      "nice_to_have": ["HOMER", "PVsyst", "Battery Systems", "Inverters", "Microgrids"],
+      "description": "Design renewable energy systems and solutions"
+    },
+    {
+      "id": 55,
+      "title": "Electronics Design Engineer",
+      "category": "Electronics & Communication Engineering (ECE)",
+      "department": "ECE",
+      "required_skills": ["PCB Design", "Altium Designer", "Circuit Simulation", "Embedded Systems", "Analog Design", "Digital Design", "Testing"],
+      "nice_to_have": ["OrCAD", "LTspice", "RF Design", "Signal Integrity", "EMI/EMC"],
+      "description": "Design electronic circuits and PCB layouts"
+    },
+    {
+      "id": 56,
+      "title": "Embedded Systems Engineer",
+      "category": "Electronics & Communication Engineering (ECE)",
+      "department": "ECE",
+      "required_skills": ["C/C++", "Microcontrollers", "ARM", "RTOS", "Embedded Linux", "Communication Protocols", "Debugging"],
+      "nice_to_have": ["Python", "IoT", "Device Drivers", "FreeRTOS", "CAN Protocol"],
+      "description": "Develop embedded software and hardware systems"
+    },
+    {
+      "id": 57,
+      "title": "VLSI Design Engineer",
+      "category": "Electronics & Communication Engineering (ECE)",
+      "department": "ECE",
+      "required_skills": ["Verilog", "VHDL", "RTL Design", "FPGA", "Digital Design", "Xilinx", "Synthesis"],
+      "nice_to_have": ["SystemVerilog", "UVM", "Verification", "ASIC Design", "Physical Design"],
+      "description": "Design and verify VLSI circuits and systems"
+    },
+    {
+      "id": 58,
+      "title": "Telecommunications Engineer",
+      "category": "Electronics & Communication Engineering (ECE)",
+      "department": "ECE",
+      "required_skills": ["Wireless Communication", "Network Design", "RF Engineering", "4G/5G", "Antenna Design", "Signal Processing", "Protocols"],
+      "nice_to_have": ["Fiber Optics", "Microwave", "LTE", "Network Planning Tools", "MATLAB"],
+      "description": "Design and optimize telecommunication networks"
+    },
+    {
+      "id": 59,
+      "title": "Signal Processing Engineer",
+      "category": "Electronics & Communication Engineering (ECE)",
+      "department": "ECE",
+      "required_skills": ["Digital Signal Processing", "MATLAB", "Python", "Algorithms", "Audio/Video Processing", "Filtering", "FFT"],
+      "nice_to_have": ["Machine Learning", "Image Processing", "Real-time Processing", "DSP Processors"],
+      "description": "Develop signal processing algorithms and applications"
+    },
+    {
+      "id": 60,
+      "title": "Mechanical Design Engineer",
+      "category": "Mechanical Engineering",
+      "department": "Mechanical",
+      "required_skills": ["CAD", "SolidWorks", "AutoCAD", "CATIA", "GD&T", "Manufacturing Processes", "Material Selection"],
+      "nice_to_have": ["FEA", "CFD", "Creo", "Inventor", "3D Printing"],
+      "description": "Design mechanical components and systems"
+    },
+    {
+      "id": 61,
+      "title": "CAE Engineer",
+      "category": "Mechanical Engineering",
+      "department": "Mechanical",
+      "required_skills": ["Finite Element Analysis", "ANSYS", "Structural Analysis", "Thermal Analysis", "Simulation", "CAD", "Material Science"],
+      "nice_to_have": ["HyperMesh", "Abaqus", "CFD", "Optimization", "Fatigue Analysis"],
+      "description": "Perform computer-aided engineering analysis"
+    },
+    {
+      "id": 62,
+      "title": "Thermal Engineer",
+      "category": "Mechanical Engineering",
+      "department": "Mechanical",
+      "required_skills": ["Heat Transfer", "Thermal Analysis", "HVAC", "CFD", "Thermodynamics", "Cooling Systems", "Simulation"],
+      "nice_to_have": ["ANSYS Fluent", "Thermal Design", "Energy Systems", "MATLAB"],
+      "description": "Design and optimize thermal management systems"
+    },
+    {
+      "id": 63,
+      "title": "Manufacturing Engineer",
+      "category": "Mechanical Engineering",
+      "department": "Mechanical",
+      "required_skills": ["Manufacturing Processes", "CNC", "Quality Control", "Lean Manufacturing", "CAM", "Process Optimization", "Six Sigma"],
+      "nice_to_have": ["Automation", "Robotics", "3D Printing", "Tool Design", "Production Planning"],
+      "description": "Optimize manufacturing processes and operations"
+    },
+    {
+      "id": 64,
+      "title": "Automotive Engineer",
+      "category": "Automobile Engineering",
+      "department": "Automobile",
+      "required_skills": ["Vehicle Dynamics", "CAD", "Automotive Systems", "Testing", "Design", "Manufacturing", "Mechanical Systems"],
+      "nice_to_have": ["Electric Vehicles", "ADAS", "Embedded Systems", "Simulation", "Powertrain"],
+      "description": "Design and develop automotive components and systems"
+    },
+    {
+      "id": 65,
+      "title": "Electric Vehicle Engineer",
+      "category": "Automobile Engineering",
+      "department": "Automobile",
+      "required_skills": ["Electric Vehicles", "Battery Systems", "Power Electronics", "Motor Control", "Charging Systems", "Vehicle Integration", "Testing"],
+      "nice_to_have": ["BMS", "Inverters", "Thermal Management", "Simulation", "Control Systems"],
+      "description": "Develop electric vehicle technologies and systems"
+    },
+    {
+      "id": 66,
+      "title": "Automotive Embedded Engineer",
+      "category": "Automobile Engineering",
+      "department": "Automobile",
+      "required_skills": ["C/C++", "Embedded C", "AUTOSAR", "CAN Protocol", "Microcontrollers", "Diagnostics", "Testing"],
+      "nice_to_have": ["MISRA C", "UDS", "Model-Based Design", "MATLAB Simulink", "Safety Standards"],
+      "description": "Develop embedded software for automotive applications"
+    },
+    {
+      "id": 67,
+      "title": "ADAS Engineer",
+      "category": "Automobile Engineering",
+      "department": "Automobile",
+      "required_skills": ["ADAS", "Computer Vision", "Sensor Fusion", "Machine Learning", "Autonomous Driving", "C++", "Python"],
+      "nice_to_have": ["ROS", "LiDAR", "Camera Systems", "Deep Learning", "Simulation"],
+      "description": "Develop advanced driver assistance systems"
+    },
+    {
+      "id": 68,
+      "title": "Civil Engineer",
+      "category": "Civil Engineering",
+      "department": "Civil",
+      "required_skills": ["Structural Design", "AutoCAD", "Project Management", "Construction Management", "Site Supervision", "Estimating", "Building Codes"],
+      "nice_to_have": ["Revit", "SAP2000", "ETABS", "Surveying", "Transportation Engineering"],
+      "description": "Design and oversee construction projects"
+    },
+    {
+      "id": 69,
+      "title": "Structural Engineer",
+      "category": "Civil Engineering",
+      "department": "Civil",
+      "required_skills": ["Structural Analysis", "SAP2000", "ETABS", "STAAD Pro", "Concrete Design", "Steel Design", "Building Codes"],
+      "nice_to_have": ["Seismic Design", "Bridge Design", "FEM", "Revit", "Foundation Design"],
+      "description": "Design and analyze building structures"
+    },
+    {
+      "id": 70,
+      "title": "Construction Manager",
+      "category": "Civil Engineering",
+      "department": "Civil",
+      "required_skills": ["Project Management", "Construction Planning", "Budgeting", "Scheduling", "Quality Control", "Safety Management", "Contract Management"],
+      "nice_to_have": ["Primavera", "MS Project", "BIM", "Lean Construction", "Cost Estimation"],
+      "description": "Manage construction projects and teams"
+    },
+    {
+      "id": 71,
+      "title": "Transportation Engineer",
+      "category": "Civil Engineering",
+      "department": "Civil",
+      "required_skills": ["Traffic Engineering", "Highway Design", "Transportation Planning", "AutoCAD", "Traffic Simulation", "Geometric Design", "Safety Analysis"],
+      "nice_to_have": ["VISSIM", "SYNCHRO", "GIS", "Pavement Design", "Public Transport"],
+      "description": "Design and plan transportation infrastructure"
+    },
+    {
+      "id": 72,
+      "title": "Ethical Hacker",
+      "category": "Cybersecurity",
+      "department": "Cyber Security",
+      "required_skills": ["Penetration Testing", "Vulnerability Assessment", "Kali Linux", "Network Security", "Web Application Security", "Scripting", "Security Tools"],
+      "nice_to_have": ["CEH", "OSCP", "Bug Bounty", "Social Engineering", "Wireless Security"],
+      "description": "Identify security vulnerabilities through ethical hacking"
+    },
+    {
+      "id": 73,
+      "title": "Security Operations Center (SOC) Analyst",
+      "category": "Cybersecurity",
+      "department": "Cyber Security",
+      "required_skills": ["SIEM", "Log Analysis", "Threat Detection", "Incident Response", "Security Monitoring", "Network Security", "Malware Analysis"],
+      "nice_to_have": ["Splunk", "QRadar", "Threat Intelligence", "Forensics", "Automation"],
+      "description": "Monitor and respond to security incidents"
+    },
+    {
+      "id": 74,
+      "title": "Application Security Engineer",
+      "category": "Cybersecurity",
+      "department": "Cyber Security",
+      "required_skills": ["Application Security", "OWASP", "Code Review", "Vulnerability Assessment", "Secure Coding", "Web Security", "API Security"],
+      "nice_to_have": ["Burp Suite", "DevSecOps", "Container Security", "SAST/DAST", "Threat Modeling"],
+      "description": "Secure applications from vulnerabilities"
+    },
+    {
+      "id": 75,
+      "title": "AI Engineer",
+      "category": "Artificial Intelligence & Data Science",
+      "department": "AI & DS",
+      "required_skills": ["Machine Learning", "Deep Learning", "Python", "TensorFlow", "PyTorch", "NLP", "Computer Vision"],
+      "nice_to_have": ["MLOps", "Reinforcement Learning", "Transformers", "BERT", "GPT"],
+      "description": "Develop AI models and intelligent systems"
+    },
+    {
+      "id": 76,
+      "title": "NLP Engineer",
+      "category": "Artificial Intelligence & Data Science",
+      "department": "AI & DS",
+      "required_skills": ["NLP", "Python", "Transformers", "BERT", "Text Processing", "Deep Learning", "Machine Learning"],
+      "nice_to_have": ["GPT", "Spacy", "NLTK", "LLMs", "Hugging Face"],
+      "description": "Develop natural language processing solutions"
+    },
+    {
+      "id": 77,
+      "title": "Computer Vision Engineer",
+      "category": "Artificial Intelligence & Data Science",
+      "department": "AI & DS",
+      "required_skills": ["Computer Vision", "Deep Learning", "Python", "OpenCV", "Image Processing", "CNN", "Object Detection"],
+      "nice_to_have": ["YOLO", "Segmentation", "3D Vision", "TensorFlow", "PyTorch"],
+      "description": "Develop computer vision applications"
+    },
+    {
+      "id": 78,
+      "title": "IT Support Engineer",
+      "category": "Information Technology",
+      "department": "IT",
+      "required_skills": ["Technical Support", "Windows", "Linux", "Troubleshooting", "Active Directory", "Networking", "Hardware"],
+      "nice_to_have": ["Cloud Services", "Scripting", "ITIL", "Ticketing Systems"],
+      "description": "Provide technical support and troubleshooting"
+    },
+    {
+      "id": 79,
+      "title": "IT Project Manager",
+      "category": "Information Technology",
+      "department": "IT",
+      "required_skills": ["Project Management", "Agile", "Scrum", "Stakeholder Management", "IT Infrastructure", "Budgeting", "Risk Management"],
+      "nice_to_have": ["PMP", "JIRA", "Cloud Migration", "Change Management"],
+      "description": "Manage IT projects and teams"
+    },
+    {
+      "id": 80,
+      "title": "Medical Doctor (General Physician)",
+      "category": "Medical",
+      "department": "Medical",
+      "required_skills": ["Clinical Diagnosis", "Patient Care", "Medical Knowledge", "Treatment Planning", "Communication", "EMR Systems", "Ethics"],
+      "nice_to_have": ["Specialization", "Research", "Public Health", "Telemedicine"],
+      "description": "Diagnose and treat patients"
+    },
+    {
+      "id": 81,
+      "title": "Biomedical Engineer",
+      "category": "Medical",
+      "department": "Biomedical Engineering",
+      "required_skills": ["Medical Devices", "Instrumentation", "Signal Processing", "Regulatory Standards", "Testing", "CAD", "Electronics"],
+      "nice_to_have": ["FDA Regulations", "ISO Standards", "Clinical Trials", "3D Printing"],
+      "description": "Design and develop medical devices"
+    },
+    {
+      "id": 82,
+      "title": "Clinical Data Analyst",
+      "category": "Medical",
+      "department": "Medical",
+      "required_skills": ["Data Analysis", "SQL", "Healthcare Analytics", "Statistics", "Excel", "Medical Terminology", "Reporting"],
+      "nice_to_have": ["Python", "R", "Tableau", "Clinical Trials", "EHR Systems"],
+      "description": "Analyze clinical and healthcare data"
+    },
+    {
+      "id": 83,
+      "title": "Medical Imaging Specialist",
+      "category": "Medical",
+      "department": "Medical",
+      "required_skills": ["Medical Imaging", "Radiology", "CT Scan", "MRI", "X-Ray", "Image Analysis", "PACS"],
+      "nice_to_have": ["AI in Imaging", "3D Reconstruction", "DICOM", "Image Processing"],
+      "description": "Operate and analyze medical imaging equipment"
+    },
+    {
+      "id": 84,
+      "title": "Pharmaceutical Research Scientist",
+      "category": "Medical",
+      "department": "Pharmaceutical",
+      "required_skills": ["Drug Development", "Research", "Laboratory Techniques", "Data Analysis", "Clinical Trials", "Regulatory Knowledge", "Documentation"],
+      "nice_to_have": ["Pharmacology", "Biochemistry", "GLP/GMP", "Statistical Analysis"],
+      "description": "Conduct pharmaceutical research and development"
+    },
+    {
+      "id": 85,
+      "title": "Robotics Engineer",
+      "category": "Mechanical/Electrical Engineering",
+      "department": "Mechanical/EEE/ECE",
+      "required_skills": ["Robotics", "Control Systems", "Programming", "Kinematics", "Sensors", "Actuators", "ROS"],
+      "nice_to_have": ["Computer Vision", "Machine Learning", "MATLAB", "Simulation", "AI"],
+      "description": "Design and program robotic systems"
+    },
+    {
+      "id": 86,
+      "title": "Automation Engineer",
+      "category": "Electrical/Mechanical Engineering",
+      "department": "EEE/Mechanical",
+      "required_skills": ["PLC Programming", "SCADA", "Industrial Automation", "Control Systems", "Instrumentation", "HMI", "Troubleshooting"],
+      "nice_to_have": ["Robotics", "Vision Systems", "IoT", "Six Sigma", "Lean Manufacturing"],
+      "description": "Automate industrial processes and systems"
+    },
+    {
+      "id": 87,
+      "title": "Quality Assurance Engineer",
+      "category": "Manufacturing/IT",
+      "department": "Multiple",
+      "required_skills": ["Quality Control", "Testing", "Standards", "Documentation", "Problem Solving", "Inspection", "Process Improvement"],
+      "nice_to_have": ["Six Sigma", "ISO Standards", "Automation", "Statistical Analysis"],
+      "description": "Ensure product quality and compliance"
+    },
+    {
+      "id": 88,
+      "title": "Research & Development Engineer",
+      "category": "Engineering",
+      "department": "Multiple",
+      "required_skills": ["Research", "Innovation", "Prototyping", "Testing", "Documentation", "Problem Solving", "Technical Writing"],
+      "nice_to_have": ["Patents", "Publications", "Simulation", "Advanced Materials", "Interdisciplinary Knowledge"],
+      "description": "Conduct research and develop new technologies"
+    },
+    {
+      "id": 89,
+      "title": "Product Design Engineer",
+      "category": "Mechanical Engineering",
+      "department": "Mechanical",
+      "required_skills": ["Product Design", "CAD", "SolidWorks", "Prototyping", "Material Selection", "DFM", "Testing"],
+      "nice_to_have": ["3D Printing", "FEA", "User Experience", "Industrial Design"],
+      "description": "Design and develop new products"
+    },
+    {
+      "id": 90,
+      "title": "Field Application Engineer",
+      "category": "Engineering",
+      "department": "Multiple",
+      "required_skills": ["Technical Support", "Customer Interaction", "Product Knowledge", "Troubleshooting", "Presentation", "Problem Solving"],
+      "nice_to_have": ["Sales", "Training", "Documentation", "Travel"],
+      "description": "Provide technical support to customers"
+    },
+    {
+      "id": 91,
+      "title": "Site Engineer",
+      "category": "Civil Engineering",
+      "department": "Civil",
+      "required_skills": ["Site Supervision", "Construction Management", "Quality Control", "Safety", "AutoCAD", "Project Coordination", "Documentation"],
+      "nice_to_have": ["Surveying", "Material Testing", "Scheduling", "Budget Management"],
+      "description": "Supervise construction activities on site"
+    },
+    {
+      "id": 92,
+      "title": "Testing Engineer",
+      "category": "Automobile/Mechanical",
+      "department": "Automobile/Mechanical",
+      "required_skills": ["Testing", "Test Planning", "Data Analysis", "Documentation", "Quality Standards", "Instrumentation", "Problem Solving"],
+      "nice_to_have": ["Automation", "Simulation", "Statistics", "Regulatory Standards"],
+      "description": "Test and validate products and systems"
+    },
+    {
+      "id": 93,
+      "title": "Sales Engineer",
+      "category": "Sales/Technical",
+      "department": "Multiple",
+      "required_skills": ["Technical Knowledge", "Sales", "Customer Interaction", "Presentation", "Product Demonstration", "Negotiation", "CRM"],
+      "nice_to_have": ["Market Analysis", "Proposal Writing", "Account Management"],
+      "description": "Sell technical products and solutions"
+    },
+    {
+      "id": 94,
+      "title": "Process Engineer",
+      "category": "Chemical/Mechanical",
+      "department": "Chemical/Mechanical",
+      "required_skills": ["Process Optimization", "Six Sigma", "Lean Manufacturing", "Data Analysis", "Problem Solving", "Documentation", "Safety"],
+      "nice_to_have": ["Automation", "Simulation", "Statistical Analysis", "Project Management"],
+      "description": "Optimize manufacturing processes"
+    },
+    {
+      "id": 95,
+      "title": "RF Engineer",
+      "category": "Electronics & Communication",
+      "department": "ECE",
+      "required_skills": ["RF Design", "Antenna Design", "Microwave", "Electromagnetic Theory", "Testing", "Simulation", "Communication Systems"],
+      "nice_to_have": ["5G", "Wireless Standards", "HFSS", "CST", "Signal Processing"],
+      "description": "Design RF and microwave systems"
+    },
+    {
+      "id": 96,
+      "title": "Chemical Engineer",
+      "category": "Chemical Engineering",
+      "department": "Chemical",
+      "required_skills": ["Process Design", "Chemical Reactions", "Mass Transfer", "Heat Transfer", "Process Simulation", "Safety", "Quality Control"],
+      "nice_to_have": ["ASPEN Plus", "HYSYS", "Process Optimization", "Environmental Engineering"],
+      "description": "Design and optimize chemical processes"
+    },
+    {
+      "id": 97,
+      "title": "Environmental Engineer",
+      "category": "Environmental Engineering",
+      "department": "Civil/Environmental",
+      "required_skills": ["Environmental Impact Assessment", "Water Treatment", "Waste Management", "Air Quality", "Regulations", "Sustainability", "Project Management"],
+      "nice_to_have": ["GIS", "Environmental Modeling", "Renewable Energy", "Climate Change"],
+      "description": "Design solutions for environmental challenges"
+    },
+    {
+      "id": 98,
+      "title": "Petroleum Engineer",
+      "category": "Petroleum Engineering",
+      "department": "Petroleum",
+      "required_skills": ["Reservoir Engineering", "Drilling", "Production", "Well Testing", "Petroleum Geology", "Simulation", "Safety"],
+      "nice_to_have": ["Enhanced Oil Recovery", "Offshore Engineering", "Process Optimization"],
+      "description": "Extract and produce oil and gas resources"
+    },
+    {
+      "id": 99,
+      "title": "Mining Engineer",
+      "category": "Mining Engineering",
+      "department": "Mining",
+      "required_skills": ["Mine Planning", "Rock Mechanics", "Mineral Processing", "Safety", "Surveying", "Geology", "Excavation"],
+      "nice_to_have": ["Mine Ventilation", "Blast Design", "Environmental Management"],
+      "description": "Design and manage mining operations"
+    },
+    {
+      "id": 100,
+      "title": "Aerospace Engineer",
+      "category": "Aerospace Engineering",
+      "department": "Aerospace",
+      "required_skills": ["Aerodynamics", "Aircraft Design", "Propulsion", "Structures", "Flight Mechanics", "CAD", "Testing"],
+      "nice_to_have": ["CFD", "FEA", "Systems Engineering", "Avionics", "Composite Materials"],
+      "description": "Design aircraft and spacecraft systems"
+    },
+    {
+      "id": 101,
+      "title": "Marine Engineer",
+      "category": "Marine Engineering",
+      "department": "Marine",
+      "required_skills": ["Ship Design", "Marine Propulsion", "Naval Architecture", "Structural Analysis", "Fluid Mechanics", "CAD", "Marine Systems"],
+      "nice_to_have": ["Offshore Structures", "CFD", "Classification Society Rules", "Port Design"],
+      "description": "Design and maintain marine vessels and systems"
+    },
+    {
+      "id": 102,
+      "title": "Agricultural Engineer",
+      "category": "Agricultural Engineering",
+      "department": "Agricultural",
+      "required_skills": ["Farm Equipment Design", "Irrigation Systems", "Soil Science", "Crop Production", "Precision Agriculture", "Machinery", "Sustainability"],
+      "nice_to_have": ["IoT in Agriculture", "Drone Technology", "GIS", "Agricultural Automation"],
+      "description": "Design solutions for agricultural production"
+    },
+    {
+      "id": 103,
+      "title": "Textile Engineer",
+      "category": "Textile Engineering",
+      "department": "Textile",
+      "required_skills": ["Textile Manufacturing", "Fabric Design", "Dyeing", "Quality Control", "Material Science", "Production Planning", "Machinery"],
+      "nice_to_have": ["Smart Textiles", "Sustainable Fashion", "Automation", "CAD for Textiles"],
+      "description": "Design and produce textile materials"
+    },
+    {
+      "id": 104,
+      "title": "Industrial Engineer",
+      "category": "Industrial Engineering",
+      "department": "Industrial",
+      "required_skills": ["Process Optimization", "Lean Manufacturing", "Six Sigma", "Production Planning", "Quality Control", "Supply Chain", "Operations Research"],
+      "nice_to_have": ["Simulation", "Ergonomics", "Automation", "Data Analysis", "Project Management"],
+      "description": "Optimize industrial processes and systems"
+    },
+    {
+      "id": 105,
+      "title": "Safety Engineer",
+      "category": "Safety Engineering",
+      "department": "Multiple",
+      "required_skills": ["Safety Management", "Risk Assessment", "OSHA Standards", "Incident Investigation", "Safety Training", "Regulations", "Auditing"],
+      "nice_to_have": ["Fire Safety", "Industrial Hygiene", "Emergency Response", "Safety Systems Design"],
+      "description": "Ensure workplace safety and compliance"
+    },
+    {
+      "id": 106,
+      "title": "Instrumentation Engineer",
+      "category": "Instrumentation Engineering",
+      "department": "EEE/ECE",
+      "required_skills": ["Instrumentation", "Control Systems", "Sensors", "Calibration", "PLC", "SCADA", "Process Control"],
+      "nice_to_have": ["DCS", "Field Instruments", "Smart Transmitters", "Safety Instrumented Systems"],
+      "description": "Design and maintain instrumentation systems"
+    },
+    {
+      "id": 107,
+      "title": "Hardware Engineer",
+      "category": "Computer Hardware Engineering",
+      "department": "ECE/CSE",
+      "required_skills": ["Circuit Design", "PCB Design", "Debugging", "Testing", "Hardware Architecture", "Embedded Systems", "Microprocessors"],
+      "nice_to_have": ["FPGA", "VHDL", "Signal Integrity", "Power Electronics", "Manufacturing"],
+      "description": "Design and develop computer hardware"
+    },
+    {
+      "id": 108,
+      "title": "Firmware Engineer",
+      "category": "Embedded Systems",
+      "department": "ECE/CSE",
+      "required_skills": ["C/C++", "Embedded C", "Microcontrollers", "RTOS", "Device Drivers", "Debugging", "Hardware Interfaces"],
+      "nice_to_have": ["Python", "Linux Kernel", "Bootloaders", "Communication Protocols", "Testing"],
+      "description": "Develop firmware for embedded devices"
+    },
+    {
+      "id": 109,
+      "title": "Cloud Engineer",
+      "category": "Cloud Computing",
+      "department": "CSE/IT",
+      "required_skills": ["AWS", "Azure", "GCP", "Cloud Infrastructure", "DevOps", "Networking", "Security", "Automation"],
+      "nice_to_have": ["Kubernetes", "Terraform", "Serverless", "Monitoring", "Cost Optimization"],
+      "description": "Build and manage cloud infrastructure"
+    },
+    {
+      "id": 110,
+      "title": "Site Reliability Engineer (SRE)",
+      "category": "Operations",
+      "department": "CSE/IT",
+      "required_skills": ["Linux", "Monitoring", "Automation", "Incident Management", "Scripting", "CI/CD", "Distributed Systems"],
+      "nice_to_have": ["Kubernetes", "Docker", "Prometheus", "Grafana", "On-call Experience"],
+      "description": "Ensure reliability and performance of production systems"
+    }
+  ]
+}
