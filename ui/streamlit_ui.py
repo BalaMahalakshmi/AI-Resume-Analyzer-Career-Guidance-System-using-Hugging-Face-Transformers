@@ -386,6 +386,6 @@ elif page == "💬 Ask Questions":
 st.markdown("---")
 st.markdown("""
     <div style='text-align: center; color: gray;'>
-        <p>Built with ❤️ using Streamlit & HuggingFace | AI Resume Analyzer v1.0</p>
+        <p>Built with knowledge, using Streamlit & HuggingFace | AI Resume Analyzer v1608</p>
     </div>
 """, unsafe_allow_html=True)
