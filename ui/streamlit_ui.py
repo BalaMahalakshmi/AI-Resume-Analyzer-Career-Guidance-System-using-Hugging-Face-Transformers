@@ -276,7 +276,7 @@ if page == "📤 Upload Resume":
                 for category, skills_list in categorized.items():
                     if skills_list:
                         badges = "".join(
-                            f'<span class="skill-badge">{s}</span>'
+                            f'<span style="color:black;" class="skill-badge">{s}</span>'
                             for s in skills_list
                         )
                         st.markdown(f"**{category}:** {badges}", unsafe_allow_html=True)
@@ -382,14 +382,14 @@ elif page == "🎯 Job Matches":
                     st.markdown("---")
                     st.markdown("**🔑 All Required Skills:**")
                     req_badges = "".join(
-                        f'<span class="skill-badge" style="background:#d4edda;">{s}</span>'
+                        f'<span style="color:black;" class="skill-badge">{s}</span>'
                         for s in job.get('required_skills', [])
                     )
                     st.markdown(req_badges or "N/A", unsafe_allow_html=True)
 
                     st.markdown("**💡 Nice-to-Have Skills:**")
                     nice_badges = "".join(
-                        f'<span class="skill-badge" style="background:#fff3cd;">{s}</span>'
+                        f'<span style="color:black;" class="skill-badge" >{s}</span>'
                         for s in job.get('nice_to_have', [])
                     )
                     st.markdown(nice_badges or "N/A", unsafe_allow_html=True)
